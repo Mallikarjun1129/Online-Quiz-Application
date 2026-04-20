@@ -11,7 +11,7 @@ public class DBConnection {
 	            return DriverManager.getConnection(
 	                "jdbc:mysql://localhost:3306/quiz_app",
 	                "root",
-	                "system"
+	                ".........." //---ur Mysql Password
 	            );
 	        } catch (Exception e) {
 	            e.printStackTrace();
